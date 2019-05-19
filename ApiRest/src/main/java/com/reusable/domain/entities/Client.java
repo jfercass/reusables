@@ -1,12 +1,12 @@
 package com.reusable.domain.entities;
 
-import javax.persistence.Column;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
+@Entity
 @Table(name = "AFIP_CLIENT")
 public class Client {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "AFIP_ID")
     public long id;
     @Column(name = "AFIP_CUIT")
@@ -15,6 +15,8 @@ public class Client {
     public String name;
     @Column(name = "AFIP_DIECTION")
     public String direction;
+
+    public Client(){}
 
     public long getId() {
         return id;

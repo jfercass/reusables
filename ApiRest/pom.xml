@@ -92,7 +92,7 @@
       <dependencies>
         <dependency>
           <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-jersey</artifactId>
+          <artifactId>spring-boot-starter-web</artifactId>
           <exclusions>
             <exclusion>
               <groupId>org.apache.tomcat</groupId>
@@ -178,7 +178,7 @@
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
-      <scope>test</scope>
+
       <version>1.4.194</version>
     </dependency>
     <!--dependency>
