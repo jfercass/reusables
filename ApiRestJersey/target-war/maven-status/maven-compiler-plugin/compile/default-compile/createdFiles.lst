@@ -1,0 +1,7 @@
+ferchu\reusable\domain\exceptions\DomainException.class
+ferchu\reusable\domain\entities\Client.class
+ferchu\reusable\rest\CrudResource.class
+ferchu\reusable\JpaApplication.class
+ferchu\reusable\web\ConfigRepository.class
+ferchu\reusable\domain\repositories\ClientRepository.class
+ferchu\reusable\rest\ClientResource.class
