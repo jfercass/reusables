@@ -1,1 +1,7 @@
+com\reusable\domain\exceptions\DomainException.class
+com\reusable\web\ConfigRepository.class
+com\reusable\rest\ClientResource.class
+com\reusable\domain\entities\Client.class
+com\reusable\rest\CrudResource.class
 com\reusable\JpaApplication.class
+com\reusable\domain\repositories\ClientRepository.class

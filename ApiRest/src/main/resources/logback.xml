@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-    <property name="LOG_PATH" value="c:/Users/fernando/Documents/Fernando/Programas/Portable/Tomcats/apache-tomcat-8.0.30_32bit/logs"/>
+    <property name="LOG_PATH" value="c:/Users/fernando/Documents/Fernando/Desarrollos/GitKraken/logs"/>
 
     <appender name="mainAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <File>${LOG_PATH}/restapi-main.log</File>

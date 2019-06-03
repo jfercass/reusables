@@ -51,7 +51,7 @@
       <dependencies>
         <dependency>
           <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-jersey</artifactId>
+          <artifactId>spring-boot-starter-web</artifactId>
           <exclusions>
             <exclusion>
               <groupId>org.springframework.boot</groupId>
@@ -72,14 +72,7 @@
           <artifactId>javax.ws.rs-api</artifactId>
           <version>2.0.1</version>
         </dependency>
-
-        <dependency>
-          <groupId>commons-fileupload</groupId>
-          <artifactId>commons-fileupload</artifactId>
-          <version>1.2</version>
-        </dependency>
       </dependencies>
-
     </profile>
     <profile>
       <id>war</id>

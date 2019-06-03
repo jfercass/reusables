@@ -1,0 +1,15 @@
+com\testsecurity\rest\ClientResource.class
+com\testsecurity\rest\UsuarioResource.class
+com\testsecurity\security\JWTAuthorizationFilter.class
+com\testsecurity\web\ConfigRepository.class
+com\testsecurity\domain\repositories\ClientRepository.class
+com\testsecurity\rest\CrudResource.class
+com\testsecurity\domain\exceptions\DomainException.class
+com\testsecurity\security\WebSecurity.class
+com\testsecurity\security\JWTAuthenticationFilter.class
+com\testsecurity\domain\services\UsuarioDetailsService.class
+com\testsecurity\domain\entities\Usuario.class
+com\testsecurity\domain\repositories\UsuarioRepository.class
+com\testsecurity\JpaApplication.class
+com\testsecurity\security\Constants.class
+com\testsecurity\domain\entities\Client.class

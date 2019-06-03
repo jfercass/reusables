@@ -1,0 +1,15 @@
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\rest\CrudResource.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\rest\ClientResource.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\web\ConfigRepository.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\rest\UsuarioResource.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\repositories\UsuarioRepository.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\security\WebSecurity.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\security\Constants.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\exceptions\DomainException.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\entities\Client.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\entities\Usuario.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\security\JWTAuthenticationFilter.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\services\UsuarioDetailsService.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\JpaApplication.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\domain\repositories\ClientRepository.java
+C:\Users\fernando\Documents\Fernando\Desarrollos\GitKraken\reusables\ApiRestSequrity\src\main\java\com\testsecurity\security\JWTAuthorizationFilter.java

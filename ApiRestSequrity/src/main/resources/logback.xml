@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="LOG_PATH" value="c:/Users/fernando/Documents/Fernando/Desarrollos/GitKraken/logs"/>
+
+    <appender name="mainAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>${LOG_PATH}/restapiSecurity-main.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- daily rollover -->
+            <FileNamePattern>${LOG_PATH}/restapiSecurity-main.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <maxFileSize>10KB</maxFileSize>
+            <maxHistory>3</maxHistory>
+            <totalSizeCap>150KB</totalSizeCap>
+        </rollingPolicy>
+
+        <encoder>
+            <!--Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern-->
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg %n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.testsecurity.rest" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+
+    <logger name="com.testsecurity.web" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+
+    <logger name="com.testsecurity.domain" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+
+    <logger name="org.springframework.transaction" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+    <logger name="org.hibernate.SQL" additivity="false">
+        <level value="TRACE"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="mainAppender"/>
+    </logger>
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="mainAppender"/>
+        <!--appender-ref ref="domainAppender"/-->
+    </root>
+</configuration>
